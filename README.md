@@ -17,3 +17,8 @@ Most Commonly Used Design Patterns and their examples in C++
 - It defines an interface to define an object but lets subclasses decide which class to instantiate.
 - User for things like UI frameworks/ Game Development
 - Example in this repo: Pizza Store and Pizza Type
+
+# Abstract Factory
+- Abstract Factory is a creational design pattern that provides an interface to create families of related objects without specifying their concrete classes.
+- It is used when you need multiple objects that belong together (a "product family") to ensure consistency.
+- Example in this repo: ItalianMealFactory creates a complete matching Italian meal (Margherita Pizza + Cola), while MexicanMealFactory creates a matching Mexican meal (Mexican Pizza + Margarita).
